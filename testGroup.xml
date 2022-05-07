@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestGroup">
+ 
+ 
+  <test name="GroupTesting">
+  <groups>
+  	<run>
+  		<include name ="smokeTest"/>
+  		<exclude name="functionalTest"/>
+  	</run>
+  </groups> 
+  
+  <classes>
+    <class name="testNGCrossbrowser.TestGroup1"/>
+    <class name="testNGCrossbrowser.TestGroup2"/> 
+      
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

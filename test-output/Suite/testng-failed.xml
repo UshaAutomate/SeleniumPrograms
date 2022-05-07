@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DataproviderTest(failed)">
+    <parameter name="url" value="http://www.facebook.com"/>
+    <classes>
+      <class name="testNGCrossbrowser.DataProvederUse">
+        <methods>
+          <include name="trim"/>
+          <include name="login"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testNGCrossbrowser.DataProvederUse -->
+    </classes>
+  </test> <!-- DataproviderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
